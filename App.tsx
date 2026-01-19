@@ -114,7 +114,7 @@ function App() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
-            {/* Feature 1 */}
+            {/* Feature 1 (Standard) */}
             <div className="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 hover:shadow-xl transition-all duration-300">
               <VideoIcon />
               <h3 className="text-xl font-bold text-slate-900 mb-3">Actualización en Vivo</h3>
@@ -123,9 +123,18 @@ function App() {
               </p>
             </div>
 
-            {/* Feature 2 */}
+            {/* Feature 2 (HIGHLIGHTED - Middle) - Was Feature 3 */}
             <div className="bg-white p-8 rounded-2xl shadow-xl border-2 border-green-500 relative overflow-hidden transform md:-translate-y-4">
               <div className="absolute top-0 right-0 bg-green-500 text-white text-[10px] font-bold px-3 py-1 rounded-bl-lg tracking-wider">MÁS VALORADO</div>
+              <MicIcon />
+              <h3 className="text-xl font-bold text-slate-900 mb-3">Tus Dudas Respondidas</h3>
+              <p className="text-slate-600 leading-relaxed">
+                ¿Tienes un caso complejo? <strong>Envía tu pregunta por correo.</strong> Nuestros abogados la analizan y la responden en el Podcast mensual exclusivo.
+              </p>
+            </div>
+
+            {/* Feature 3 (Standard) - Was Feature 2 */}
+            <div className="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 hover:shadow-xl transition-all duration-300">
               <ToolIcon />
               <h3 className="text-xl font-bold text-slate-900 mb-3">Herramientas Editables</h3>
               <p className="text-slate-600 leading-relaxed">
@@ -133,14 +142,6 @@ function App() {
               </p>
             </div>
 
-            {/* Feature 3 */}
-            <div className="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 hover:shadow-xl transition-all duration-300">
-              <MicIcon />
-              <h3 className="text-xl font-bold text-slate-900 mb-3">Tus Dudas Respondidas</h3>
-              <p className="text-slate-600 leading-relaxed">
-                ¿Tienes un caso complejo? <strong>Envía tu pregunta por correo.</strong> Nuestros abogados la analizan y la responden en el Podcast mensual exclusivo.
-              </p>
-            </div>
           </div>
         </div>
       </div>
